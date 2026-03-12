@@ -9,8 +9,10 @@ import NotFound from "./pages/NotFound"
 
 export default function App() {
     return (
-        <Routes> // Routes는 react-router-dom 라이브러리에서 제공하는 컴포넌트로, Routes를 등록하고 관리할 수 있도록 한다.
-            <Route path="/" element={<Home />} /> // Route는 react-router-dom 라이브러리에서 제공하는 컴포넌트로 특정 URL 경로와 컴포넌트를 연결한다.
+        <Routes>
+            {/* Routes는 react-router-dom 라이브러리에서 제공하는 컴포넌트로, Routes를 등록하고 관리할 수 있도록 한다. */}
+            <Route path="/" element={<Home />} />
+            {/* Route는 react-router-dom 라이브러리에서 제공하는 컴포넌트로 특정 URL 경로와 컴포넌트를 연결한다. */}
             <Route path="/about" element={<About />} />
             <Route path="/korean" element={<Korean />} />
             <Route path="/math" element={<Math />} />
