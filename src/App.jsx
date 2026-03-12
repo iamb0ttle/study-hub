@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
-import About from "./pages/About.jsx"
-import Korean from "./pages/Korean.jsx"
-import Math from "./pages/Math.jsx";
-import Social from "./pages/Social.jsx";
-import Science from "./pages/Science.jsx";
-import NotFound from "./pages/NotFound.jsx";
+import About from "./pages/About"
+import Korean from "./pages/Korean"
+import Math from "./pages/Math";
+import Social from "./pages/Social";
+import Science from "./pages/Science";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
     return (
