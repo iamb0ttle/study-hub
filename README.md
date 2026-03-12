@@ -1,5 +1,8 @@
 # 📚 Study Hub
 
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
 지금까지 배운 **국어, 수학, 사회, 과학 교과 내용을 웹으로 정리하는 개인 프로젝트**입니다.
 간단한 웹 구조와 페이지 네비게이션을 구현하여 학습 내용을 체계적으로 정리합니다.
 
