@@ -2,10 +2,10 @@ import { Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Korean from "./pages/Korean"
-import Math from "./pages/Math";
-import Social from "./pages/Social";
-import Science from "./pages/Science";
-import NotFound from "./pages/NotFound";
+import Math from "./pages/Math"
+import Social from "./pages/Social"
+import Science from "./pages/Science"
+import NotFound from "./pages/NotFound"
 
 export default function App() {
     return (
@@ -18,5 +18,5 @@ export default function App() {
             <Route path="/science" element={<Science />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
-    );   
+    )   
 }

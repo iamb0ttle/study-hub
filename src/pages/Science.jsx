@@ -1,3 +1,3 @@
 export default function Science() {
-    return <h1>Science</h1>;
+    return <h1>Science</h1>
 }
