@@ -66,3 +66,42 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.appShell {
+  min-height: 100vh;
+  color: #fff;
+}
+
+.appHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.appTitle {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin-right: 12px;
+}
+
+.appNav {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.navLink {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.navLink.active {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.appMain {
+  padding: 24px 16px;
+}
