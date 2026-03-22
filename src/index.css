@@ -24,8 +24,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -54,22 +52,10 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
 
 .appShell {
   min-height: 100vh;
-  color: #fff;
+  color: inherit;
 }
 
 .appHeader {
@@ -104,4 +90,67 @@ button:focus-visible {
 
 .appMain {
   padding: 24px 16px;
+}
+
+.pageHeader {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.pageHeader h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.pageIntro {
+  margin: 0;
+  max-width: 42rem;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.95rem;
+}
+
+.pageSection {
+  margin-bottom: 2rem;
+}
+
+.pageSection h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+.pageSection p {
+  margin: 0 0 0.75rem;
+  max-width: 42rem;
+}
+
+.pageSection ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  max-width: 42rem;
+}
+
+.pageSection li {
+  margin-bottom: 0.35rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+  .pageIntro {
+    color: rgba(33, 53, 71, 0.75)
+  }
+  .pageHeader {
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+  }
 }
