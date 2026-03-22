@@ -21,6 +21,8 @@ export default function Home() {
 
             <section className="pageSection" aria-labelledby="sec-subject-nav">
                 <h2 id="sec-subject-nav">과목별 바로가기</h2>
+                {/* Link는 react-router-dom 라이브러리에서 제공하는 컴포넌트로, 페이지 간 이동을 구현한다. */}
+                {/* to 속성은 이동할 페이지의 경로를 지정한다. */}
                 <Link to={"/korean"}>국어</Link> <br />
                 <Link to={"/math"}>수학</Link> <br />
                 <Link to={"/social"}>사회</Link> <br />
